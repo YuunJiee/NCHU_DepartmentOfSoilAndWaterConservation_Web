@@ -1,0 +1,47 @@
+/*introduction設定*/
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 30px auto;
+}
+
+/*box設定*/
+.box{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 20px rgba(33,102,113,0.13);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 60px 80px;
+    flex-grow: 1;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.box div{
+    margin: 5px 110px;
+}
+.box ol{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box img{
+    width: 300px;
+}
+
+/*skew設定*/
+.skew:hover{
+    animation: skew 2s infinite linear;
+}
+    
+
+@keyframes skew {
+    from{ -webkit-transform: skewX(0deg);}
+    25%{ -webkit-transform: skewX(10deg);}
+    50%{ -webkit-transform: skewX(0deg);}
+    75%{ -webkit-transform: skewX(-10deg);}
+    to{ -webkit-transform: skewX(0);}
+}

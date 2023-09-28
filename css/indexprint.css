@@ -1,0 +1,15 @@
+header, nav, .gnav, .arrow, .scroll, .home-news, .int-morebtn, .news-morebtn{
+  display: none;
+}
+
+.home-introduction{
+    width: 100%;
+}
+
+.img{
+  max-width: 100%;
+}
+
+footer{
+  padding: 0px 0px;
+}

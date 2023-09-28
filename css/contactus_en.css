@@ -1,0 +1,94 @@
+/*connectus設定*/
+.contactus h4{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contactus {
+	max-width:1000px;
+	width:100%;
+	margin:auto;
+}
+
+#contact {
+	padding:0px 100px;
+	margin:40px auto;
+    width: 800px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 2px 2px 20px rgba(33,102,113,0.13);
+}
+
+fieldset {
+	border: medium none !important;
+	margin:auto;
+	width: 70%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:10px 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact textarea:hover{
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+    resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#6C978A;
+	color:#FFF;
+	margin:5px 0px 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#357266;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active{ 
+    box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#777474;
+}
+:-moz-placeholder {
+ color:#777474;
+}
+::-moz-placeholder {
+ color:#777474;
+}
+:-ms-input-placeholder {
+ color:#777474;
+}

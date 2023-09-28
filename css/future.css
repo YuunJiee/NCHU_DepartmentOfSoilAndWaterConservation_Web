@@ -1,0 +1,49 @@
+/*future設定*/
+.future{
+    width: 80%;
+    margin: 30px 250px;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+h4{
+    text-align: center;
+    margin: auto;
+}
+.future li{
+    color:#22252e;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.future li li{
+    font-size: 1rem;
+    font-weight: 500;
+    list-style-type: square;
+}
+
+.future ul ul{
+    margin: 0px 40px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+}
+
+@keyframes drop-in {
+    from {
+    opacity: 0;
+    transform: translateY(40px);
+    }
+    to {
+    opacity: 1;
+    transform: translate(0px);
+    }
+}
+

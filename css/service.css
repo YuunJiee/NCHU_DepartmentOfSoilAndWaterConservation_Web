@@ -1,0 +1,35 @@
+/*service設定*/
+.service{
+    max-width: 600px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.service li{
+    color:#22252e;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+}
+
+@keyframes drop-in {
+    from {
+    opacity: 0;
+    transform: translateY(-40px);
+    }
+    to {
+    opacity: 1;
+    transform: translate(0px);
+    }
+}

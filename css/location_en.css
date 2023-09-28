@@ -1,0 +1,9 @@
+/*location設定*/
+.locationimg{
+    width: 60%;
+    margin: 70px auto;
+}
+
+.locationimg img{
+    width: 100%;
+}

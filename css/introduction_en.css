@@ -1,0 +1,38 @@
+/*introduction設定*/
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 30px auto;
+}
+
+/*box設定*/
+.box{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 2px 20px rgba(33,102,113,0.13);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 60px 80px;
+    flex-grow: 1;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.box div{
+    margin: 5px 60px;
+}
+.box p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box img{
+    width: 12%;
+    margin: 0 20px;
+    opacity:0.85;
+}
+.box img:hover{
+    opacity:1;
+}

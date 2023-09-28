@@ -1,0 +1,80 @@
+/*login設定*/
+
+.login-form {
+padding:0px 100px;
+margin:40px auto;
+width: 800px;
+height: 400px;
+background-color: #fff;
+box-shadow: 2px 2px 20px rgba(33,102,113,0.13);
+}
+
+fieldset {
+border: medium none !important;
+margin:5px auto;
+padding: 50px;
+width: 70%;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"]{
+width:100%;
+border:1px solid #CCC;
+background:#FFF;
+margin:20px 0 5px;
+padding:10px;
+}
+
+.login-form input[type="text"]:hover,
+.login-form input[type="password"]:hover{
+-webkit-transition:border-color 0.3s ease-in-out;
+-moz-transition:border-color 0.3s ease-in-out;
+transition:border-color 0.3s ease-in-out;
+border:1px solid #AAA;
+}
+
+
+.login-form button[type="submit"] {
+cursor:pointer;
+width:40%;
+border:none;
+background:#6C978A;
+color:#FFF;
+margin: 30px 92px 0px;
+padding:10px;
+font-size:15px;
+}
+
+.login-form button[type="submit"]:hover {
+background:#357266;
+-webkit-transition:background 0.3s ease-in-out;
+-moz-transition:background 0.3s ease-in-out;
+transition:background-color 0.3s ease-in-out;
+}
+
+.login-form button[type="submit"]:active{ 
+  box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.login-form input:focus{
+outline:0;
+border:1px solid #999;
+}
+
+::-webkit-input-placeholder {
+color:#777474;
+}
+:-moz-placeholder {
+color:#777474;
+}
+::-moz-placeholder {
+color:#777474;
+}
+:-ms-input-placeholder {
+color:#777474;
+}
+
+.logintext{
+  text-align: center;
+  color: #777474;
+}
